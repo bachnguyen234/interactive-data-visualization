@@ -12,6 +12,11 @@ The project includes interactive visualizations based on:
 - Healthcare encounter data
 - Traveller and travel-related data
 
+### Data sources:
+- _U.S. Customs and Border Protection, FY21 - FY24 Nationwide Drug Seizures_
+- _U.S. Customs and Border Protection, FY21 - FY24 Nationwide Encounters by State_
+- _U.S. Customs and Border Protection, FY21 - FY24 Traveler and Conveyance Statistics_
+
 Each analysis explores a different dataset and demonstrates interactive approaches to communicating patterns in data.
 
 ## Methods
@@ -32,9 +37,9 @@ Each analysis explores a different dataset and demonstrates interactive approach
 ## Repository Structure
 
 ```text
-├── cbp_drug.ipynb          # Drug data visualization
-├── cbp_encounter.ipynb     # Healthcare encounter visualization
-├── cbp_traveller.ipynb     # Traveller data visualization
+├── drug_data_visualization.ipynb          # Drug data visualization
+├── healthcare_encounter_visualization.ipynb     # Healthcare encounter visualization
+├── traveller_data_visualization.ipynb     # Traveller data visualization
 ├── data/                   # Source datasets
 ├── interactive_plots/      # Exported interactive visualizations
 ├── logo/                   # Project assets
